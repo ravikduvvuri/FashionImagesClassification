@@ -143,7 +143,7 @@ To understand the data, I did the following:
 
 ## 8. Comparision - Actual Label Vs Predicted Label and Plot 
     
-    8.1.1 OpenCV - Model performance evaluation using OpenCV, HOG, LBP via features extraction
+    8.1.1 Model performance - Actual Data Vs Predicted Data
 
 ![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/Graph%20Comparision.png)
 
