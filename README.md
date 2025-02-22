@@ -4,7 +4,12 @@
 ## Jupyter Notebook
 
 ## DataSet
-https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/bank-additional-full.csv
+
+## Label data:
+https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/styles.csv
+
+## Images data:
+https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset/data
 
 
 
