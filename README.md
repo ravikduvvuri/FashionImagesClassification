@@ -73,45 +73,49 @@ To understand the data, I did the following:
 
 ![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/SampleImages.png)
 
-![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/Color%20Distribution-SampleImage.png)
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/Color%20Distribution-SampleImage1.png)
 
-## 5. Engineering Features
+## 5. Engineering Features / Preprocessing of data: Images and Labels
 
-**5.1 Encoder, Column Transformation and data split:**
+**5.1 Image resize, Label Extraction and data split:**
 
-    5.1.1 Used Encoder and Column Transformation
+    5.1.1 Label Extraction to predict classification
     
-    5.1.2 Initialized StandardScaler, OnehotEncoder, LabelEncoder
+    5.1.2 Images resize
+
+    5.1.3 Normalize Image data
     
     5.1.3 Split data into Train/Test data
 
-## 6. Models
+    5.1.4 Display resized sample images
 
-**6.1 Base model**
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/ResizedSampleImages.png)
 
-    6.1.1 Built Baseline Accuracy
 
-**6.2. Logistic Regression**
-    
-    6.2.1 Built Logistic Regression model and got train, test scores.
-    
-**6.3. KNN Model**
-    
-    6.3.1 Built KNN model and got train, test scores.
+## 6. Modeling 
 
-**6.4. Decision Tree Model**
-    
-    6.4.1 Built Decision Tree model and got train, test scores
+**6.1 Model 1: SVM Model**
 
-**6.5. SVM Model**
+    6.1.1 Built SVM model, train, tested and got F1-Score, Confusion Matrix
+
+**6.2. Model 2: KNN Model**
     
-    6.5.1 Built SVM model and got train, test scores
+    6.2.1 Built KNN model, train, tested and got F1-Score, Confusion Matrix
+
+**6.3. Model 3 : RandomForest Model**
+    
+    6.4.1 Built RandomForest model, train, tested and got F1-Score, Confusion Matrix
 
 **6.6. Model Comparisions**
     
-    6.6.1 Created a table with fit time, train, test accuracy data
+    6.6.1 Evaluate SVM, KNN, RandomForest results
     
-![Alt text](https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/Model%20scores%20comparision.jpeg)
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/SVM%20Results.png)
+
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/KNN%20Results.png)
+
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/RF%20Results.png)
+
 
 ## 7.Model Finetuning
     
@@ -120,20 +124,10 @@ To understand the data, I did the following:
     7.1.2 Performed GridSearch
     
     7.1.3 Built Confusion Matrix, Accuracy, Recall, Precision, F1Score
-    
-    7.1.4 Created a table with fit time, train, test accuracy data along with Confusion Matrix info
-    
-    7.1.5 Plotted the model comparision via histograms
-    
-    7.1.6 Plotted ROC-AUC
-    
-![Alt text](https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/ConfusionMatrix.jpeg)
 
-![Alt text](https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/Improved%20model%20scores%20comparision.jpeg)
-
-![Alt text](https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/Model%20Comparision%20HistPlot.jpeg)
-
-![Alt text](https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/ROC%20Curve.jpeg)
+    7.1.4 Shown Best Model and Parameters
+   
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/FineTunedResults.png)
 
 
 **Based on models evaluation, The DecisionTree Model has shown good performance and better Recall, F1 Score, Train/Test accurancy and model fit time**
