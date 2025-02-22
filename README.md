@@ -96,15 +96,15 @@ To understand the data, I did the following:
 
 **6.1 Model 1: SVM Model**
 
-    6.1.1 Built SVM model, train, tested and got F1-Score, Confusion Matrix
+    6.1.1 Built SVM model, trained, tested and got F1-Score, Confusion Matrix
 
 **6.2. Model 2: KNN Model**
     
-    6.2.1 Built KNN model, train, tested and got F1-Score, Confusion Matrix
+    6.2.1 Built KNN model, trained, tested and got F1-Score, Confusion Matrix
 
 **6.3. Model 3 : RandomForest Model**
     
-    6.4.1 Built RandomForest model, train, tested and got F1-Score, Confusion Matrix
+    6.4.1 Built RandomForest model, trained, tested and got F1-Score, Confusion Matrix
 
 **6.6. Model Comparisions**
     
