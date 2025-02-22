@@ -65,7 +65,7 @@ To understand the data, I did the following:
 ![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/Color%20Distribution-Usage.png)
 
 ### 4.3 EDA on Images data
-  These plots provide the information about how clean data looks like from distribution perspective
+  These plots provide the information about how data looks like from distribution perspective
   
     4.3.1 Display sample pictures
     
