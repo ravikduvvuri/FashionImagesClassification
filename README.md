@@ -50,7 +50,7 @@ To understand the data, I did the following:
     4.1.3 Removed missing data rows as they are not needed for images classification
        
 ### 4.2 EDA on Styles data
-  These plots provide the information about how clean data looks like from distribution perspective
+  These plots provide the information about how data looks like from distribution perspective
   
     4.2.1 Colour distribution by Gender
     
