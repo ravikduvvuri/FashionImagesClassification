@@ -5,11 +5,11 @@
 
 ## DataSet
 
-## Label data:
-https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/styles.csv
+  ## Label data:
+  https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/styles.csv
 
-## Images data:
-https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset/data
+  ## Images data:
+  https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset/data
 
 
 
