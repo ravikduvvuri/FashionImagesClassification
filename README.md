@@ -24,7 +24,7 @@ To understand the data, I did the following:
     
     3.1.2 Read 'styles.csv' into a pandas dataframe and Loaded product images into /images folder
     
-    3.1.3 Displayed sample data using df.sample(10) to see what features are there in the dataset
+    3.1.3 Displayed sample data using df.sample(5) to see what features are there in the dataset
     
     3.1.4 Gained some domain knowledge and checked data and possible relationships among them
   
