@@ -41,7 +41,7 @@ To understand the data, I did the following:
 ## 4. Data Preparation
 
 ### 4.1 Data cleanup
-  Based on data analyis, I did the following:
+  Based on data analysis, I did the following:
 
     4.1.1 Data seems clean, so no extensive pre-processing was done
 
