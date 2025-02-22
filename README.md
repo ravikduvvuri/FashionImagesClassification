@@ -2,6 +2,7 @@
 ## Identify and Classify Fashion Images and Label correctly
 
 ## Jupyter Notebook
+https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/FashionProductsClassification_RD.ipynb
 
 ## DataSet
 
