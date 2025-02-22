@@ -45,7 +45,7 @@ To understand the data, I did the following:
 
     4.1.1 Data seems clean, so no extensive pre-processing was done
 
-    4.1.2 No duplicate found
+    4.1.2 No duplicates found
     
     4.1.3 Removed missing data rows as they are not needed for images classification
        
