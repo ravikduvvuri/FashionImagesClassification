@@ -130,4 +130,35 @@ To understand the data, I did the following:
 ![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/FineTunedResults.png)
 
 
-**Based on models evaluation, The DecisionTree Model has shown good performance and better Recall, F1 Score, Train/Test accurancy and model fit time**
+## 7. Additional Packages for Model training 
+    
+    7.1.1 OpenCV - Model performance evaluation using OpenCV, HOG, LBP via features extraction
+    
+    7.1.2 Pillow - Model performance evaluation using Pillow and RandomForest
+
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/Results-OpenCV%20Model.png)
+
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/Results-PillowModel.png)
+    
+
+## 8. Comparision - Actual Label Vs Predicted Label and Plot 
+    
+    8.1.1 OpenCV - Model performance evaluation using OpenCV, HOG, LBP via features extraction
+
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/Graph%20Comparision.png)
+
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/ResultsComparisonDF.png)
+
+**Based on models evaluation, Pillow package prediction is perfect with few or no false positives. It classified images correctly. See the confusion matrix above**
+
+## 9. Next Steps 
+    
+### 1) Perform model fit on even larger dataset
+
+### 2) Enhance the modelling using CNN, Transfer Learning etc.
+
+### 3) Enhance modelling if we can extract additional features from the images while processing the classification
+
+### 4) Feed a brand new dataset outside of that used train/test to test the accuracy of model
+    
+
