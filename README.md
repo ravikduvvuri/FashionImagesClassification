@@ -159,6 +159,6 @@ To understand the data, I did the following:
 
 ### 3) Enhance modelling if we can extract additional features from the images while processing the classification
 
-### 4) Feed a brand new dataset outside of that used train/test to test the accuracy of model
+### 4) Feed a brand new dataset outside of that used for train/test to test the accuracy of model
     
 
