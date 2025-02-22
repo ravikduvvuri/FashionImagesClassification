@@ -12,23 +12,17 @@
   https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset/data
 
 
+## 1. Overview and Business Understanding
+For a fashion retailer or manufacturer, identifying and entering product attributes into a system is a tedious job; if we have a model that can classify images and get attributes, it is a great help for them and it can also enhance master product data store with less effort. In this project, my goal is explore various models and create a better model to classify images and update label attributes into a dataframe. To Train and Test the models, I leveraged the fashionProductImages Dataset from Kaggle.
 
-## 1. Overview
-In this practical application, my goal is to compare the performance of the classifiers we encountered in this section, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines. We will utilize a dataset related to marketing bank products over the telephone. As a Data Scientist, my job is to train various classification models and score performance of each one and identify the best one for the given dataset problem **ie., has the client subscribed a term deposit? (binary: 'yes','no')**
-
-## 2. Business Understanding
-To gain a better understanding of the data, please read the information provided in the UCI link in the attached dataset, and examine the Materials and Methods section of the paper. **How many marketing campaigns does this data represent?**
-  
-   _**The dataset is the result of 17 marketing campaigns**_
-
-## 3. Data Understanding
+## 2. Data Understanding
 To understand the data, I did the following:
 
   ### 3.1 Initial steps done
     
-    3.1.1 Imported relevant libraries 
+    3.1.1 Imported relevant libraries and packages
     
-    3.1.2 Read 'bank-additional-full.csv' into a pandas dataframe
+    3.1.2 Read 'styles.csv' into a pandas dataframe and Loaded product images into /images folder
     
     3.1.3 Displayed sample data using df.sample(10) to see what features are there in the dataset
     
@@ -42,36 +36,44 @@ To understand the data, I did the following:
     
     3.2.3 Searched for duplicate data
     
-  ![Alt text](https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/pa3_nulldata.jpeg)
+  ![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/MissingDataStats.png)
 
 ## 4. Data Preparation
 
-### 4.1 Pre-processing of data / Data cleanup
+### 4.1 Data cleanup
   Based on data analyis, I did the following:
 
     4.1.1 Data seems clean, so no extensive pre-processing was done
 
-    4.1.2 Removed duplicate data
+    4.1.2 No duplicate found
     
-    4.1.3 Removed outliers data using Z_score
+    4.1.3 Removed missing data rows as they are not needed for images classification
        
-### 4.2 Plots of Clean data
+### 4.2 EDA on Styles data
   These plots provide the information about how clean data looks like from distribution perspective
   
-    4.2.1 Box plots - Numeric data
+    4.2.1 Colour distribution by Gender
     
-    4.2.2 Bar Plots - Categorical data
+    4.2.2 Colour distribution by Master Category
 
-![Alt text](https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/Plots%20-%20Duration.jpeg)
+    4.2.3 Colour distribution by usage
 
-![Alt text](https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/Plots%20-%20Campaign.jpeg)
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/Color%20Distribution-Gender.png)
 
-![Alt text](https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/CPlots%20-%20Job.jpeg)
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/Color%20Distribution-MasterCategory.png)
 
-![Alt text](https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/Cplots%20-%20y.jpeg)
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/Color%20Distribution-Usage.png)
 
-![Alt text](https://github.com/ravikduvvuri/PA3_ComparingClassifiers/blob/main/ScatterPlot.jpeg)
+### 4.3 EDA on Images data
+  These plots provide the information about how clean data looks like from distribution perspective
+  
+    4.3.1 Display sample pictures
+    
+    4.3.2 Colour distribution of a sample image
 
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/SampleImages.png)
+
+![Alt text](https://github.com/ravikduvvuri/FashionImagesClassification/blob/main/Color%20Distribution-SampleImage.png)
 
 ## 5. Engineering Features
 
